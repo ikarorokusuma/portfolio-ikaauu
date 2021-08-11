@@ -1,55 +1,68 @@
 .jumbotron {
-    background-color:#9e9e9e;
+    background-color: #9e9e9e;
     height: 365px;
 }
+
 .jumbotron img {
     width: 300px;
+    max-width: 100%;
+    height: auto;
 }
-.akun .card {
-    margin:0.5rem;
-}
+
+.akun .card,
 .akun img {
-    margin:0.5rem;
+    margin: 0.5rem;
 }
+
 .akun a {
-    margin-top:1rem;
+    margin-top: 1rem;
     margin-right: 1rem;
 }
+
 .container {
-    padding:1rem;
+    padding: 1rem;
 }
-.about .d-flex{
-    padding:1rem;
-}
+
+.about .d-flex,
 .about p {
-    padding:1rem;
+    padding: 1rem;
 }
-.education .d-flex{
-    margin:1rem;
-    padding:1rem;
+
+.education .d-flex {
+    margin: 1rem;
+    padding: 1rem;
 }
+
 .education img {
     width: 150px;
 }
+
 .education p {
     margin-top: 0.5rem;
 }
+
 .education .ket {
     margin-left: 7rem;
 }
+
 .skill .list-group {
-    width:25rem;
-    margin-top:1rem; 
-} 
-.skill {
-    padding:1rem;
+    width: 25rem;
+    margin-top: 1rem;
 }
-.port {
-    padding:1rem;
-} 
-.port h3 {
+
+.skill,
+.port,
+.port h3,
+.footer p {
     padding: 1rem;
 }
+
 .port .card {
     margin: 1rem;
+}
+
+.footer {
+    background-color: #9e9e9e;
+    height: 4rem;
+
 }
